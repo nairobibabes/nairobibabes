@@ -1,0 +1,1 @@
+"use strict";!function(t){"undefined"==typeof EdgeCms&&(window.EdgeCms={});var n=".lazy";EdgeCms.ContentGrid={construct:function(){this.applyLazyLoad()},applyLazyLoad:function(){0!=t(n).length&&t(n).show().lazyload({effect:"fadeIn",threshold:400})}},EdgeCms.ContentGrid.construct()}(jQuery);
